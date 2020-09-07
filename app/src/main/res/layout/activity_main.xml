@@ -169,7 +169,7 @@
             android:layout_height="match_parent"
             android:layout_gravity="center_vertical"
             android:layout_marginStart="18dp"
-            app:srcCompat="@drawable/ic_baseline_phone_24"
+            app:srcCompat="@drawable/ic_baseline_mail_24"
             tools:ignore="VectorDrawableCompat" />
 
         <TextView
@@ -178,7 +178,7 @@
             android:layout_weight="1"
             android:gravity="center"
             android:paddingVertical="5dp"
-            android:text="Continue With Phone Number "
+            android:text="Sign Up With Mail "
             android:textColor="#FFF"
             android:textSize="16dp" />
 
