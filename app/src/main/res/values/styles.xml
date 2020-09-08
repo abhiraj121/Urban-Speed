@@ -7,4 +7,20 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="AppThemeNoBar" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:navigationBarColor">#252525</item>
+        <item name="colorPrimaryDark">#252525</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Widget.Shrine.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:textColor">@color/whiteColorPrimary</item>
+        <item name="hintTextColor">@color/whiteColorPrimary</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="iconTint">@color/whiteColorPrimary</item>
+        <item name="boxStrokeColor">@color/textInputOutlineColor</item>
+    </style>
+
 </resources>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1055582828569",
+    "firebase_url": "https://urban-speed-d20cb.firebaseio.com",
+    "project_id": "urban-speed-d20cb",
+    "storage_bucket": "urban-speed-d20cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1055582828569:android:ea93876fbb1c964a7c1288",
+        "android_client_info": {
+          "package_name": "com.abhirajsharma.urbanspeed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1055582828569-7albemhst28lt9ma06jkehtma5e1h37k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdFrsSeKOtrmBgidtCOqIleE_zIZNv9wQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1055582828569-7albemhst28lt9ma06jkehtma5e1h37k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
