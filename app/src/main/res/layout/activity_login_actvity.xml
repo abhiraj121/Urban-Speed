@@ -143,7 +143,7 @@
         app:layout_constraintTop_toBottomOf="@+id/otp_et">
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/button"
+            android:id="@+id/verifyBtn"
             android:layout_width="match_parent"
             android:layout_height="43dp"
             android:layout_marginStart="16dp"
@@ -151,7 +151,7 @@
             android:layout_weight="1"
             android:background="@drawable/login_rounded_corner"
             android:backgroundTint="#FFF"
-            android:text="Login"
+            android:text="Verify"
             android:textAllCaps="false" />
 
         <com.google.android.material.button.MaterialButton
