@@ -3,7 +3,7 @@
     <color name="colorPrimary">#4C4C4C</color>
     <color name="colorPrimaryDark">#323133</color>
     <color name="colorAccent">#03DAC5</color>
-    <color name="background">#252525</color>
+    <color name="background">#171717</color>
     <color name="backgroundLight">#4C4C4C</color>
     <color name="whiteColorPrimary">@android:color/white</color>
     <color name="textInputOutlineColor">#F76726</color>
