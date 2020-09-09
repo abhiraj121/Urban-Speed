@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Urban Speed</string>
+    <string name="termsAndCond"><![CDATA[Please read the T&C\'s before continuing]]></string>
+    <string name="phoneVerificationDetails">You will receive an OTP code through an SMS for verification</string>
 </resources>

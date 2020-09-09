@@ -1,6 +1,6 @@
 <resources>
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
@@ -10,8 +10,8 @@
     <style name="AppThemeNoBar" parent="Theme.MaterialComponents.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="android:navigationBarColor">#252525</item>
-        <item name="colorPrimaryDark">#252525</item>
+        <item name="android:navigationBarColor">@color/background</item>
+        <item name="colorPrimaryDark">@color/background</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
@@ -21,12 +21,17 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="Widget.Shrine.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
-        <item name="android:textColor">@color/whiteColorPrimary</item>
-        <item name="hintTextColor">@color/whiteColorPrimary</item>
-        <item name="android:paddingBottom">8dp</item>
-        <item name="iconTint">@color/whiteColorPrimary</item>
-        <item name="boxStrokeColor">@color/textInputOutlineColor</item>
+<!--    <style name="Widget.Urban.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">-->
+<!--        <item name="android:textColor">@color/whiteColorPrimary</item>-->
+<!--        <item name="hintTextColor">@color/whiteColorPrimary</item>-->
+<!--        <item name="android:paddingBottom">8dp</item>-->
+<!--        <item name="iconTint">@color/whiteColorPrimary</item>-->
+<!--        <item name="boxStrokeColor">@color/textInputOutlineColor</item>-->
+<!--    </style>-->
+
+    <style name="Widget.Urban.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="backgroundTint">?attr/colorPrimaryDark</item>
     </style>
 
     <style name="SplashScreen" parent="AppThemeSplash">
