@@ -1,5 +1,6 @@
 package com.abhirajsharma.urbanspeed.adapter;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Build;
 import android.view.LayoutInflater;
@@ -11,6 +12,7 @@ import android.widget.TextView;
 
 import androidx.annotation.RequiresApi;
 
+import com.abhirajsharma.urbanspeed.Products;
 import com.abhirajsharma.urbanspeed.R;
 import com.abhirajsharma.urbanspeed.model.dealsofthedayModel;
 
@@ -61,6 +63,9 @@ public class trendingAdapter extends BaseAdapter {
             imageView.setOnClickListener( new View.OnClickListener( ) {
                 @Override
                 public void onClick(View view) {
+                    Intent intent=new Intent( view.getContext(), Products.class );
+                    view.getContext().startActivity( intent );
+
                    /* Intent intent=new Intent( view.getContext(), GroceryProductDetails.class );
                     intent.putExtra("product_id", id );
                     intent.putExtra("tag_string", gridmodelList.get( i ).getTag( )  );
