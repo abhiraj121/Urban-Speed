@@ -2,6 +2,7 @@ package com.abhirajsharma.urbanspeed;
 
 import android.annotation.SuppressLint;
 import android.app.Dialog;
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
@@ -69,6 +70,15 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
+
+        profileLL.setOnClickListener( new View.OnClickListener( ) {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent( MainActivity.this,profile.class );
+                startActivity( intent );
+            }
+        } );
 
         homeCategoryModelsList=new ArrayList<>(  );
         homeCategoryModelsList.add( new HomeCategoryModels( "jhbhsda","helloworld","kajdsfg" ));
