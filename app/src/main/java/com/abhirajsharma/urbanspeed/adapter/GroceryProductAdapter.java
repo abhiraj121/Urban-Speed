@@ -16,6 +16,7 @@ import androidx.annotation.NonNull;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.abhirajsharma.urbanspeed.ProductDetails;
 import com.abhirajsharma.urbanspeed.R;
 import com.abhirajsharma.urbanspeed.model.GroceryProductModel;
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -178,6 +179,13 @@ public class GroceryProductAdapter extends RecyclerView.Adapter<GroceryProductAd
             rating.setText( Rating );
             reviewCount.setText( "(" + ReviewCount + ")" );
 
+            image.setOnClickListener( new View.OnClickListener( ) {
+                @Override
+                public void onClick(View view) {
+                    Intent intent=new Intent( itemView.getContext(), ProductDetails.class );
+                    itemView.getContext().startActivity( intent );
+                }
+            } );
            // Glide.with( itemView.getContext( ) ).load( resource ).into( image );
 
 
